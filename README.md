@@ -3,7 +3,7 @@
 </p>
 
 #### Version 2.0.0
-#### By R3D#@0R_2H1N A.K.A Tuhinshubhra
+#### By R3D#@0R_2H1N k.Rahul
 All in one tool for **Information Gathering** and **Vulnerability Scanning**
 
 # Scans That You Can Perform Using RED HAWK :
@@ -81,13 +81,18 @@ All in one tool for **Information Gathering** and **Vulnerability Scanning**
 + All set, now you can enjoy the bloggers view.
 
 # Usage:
-- git clone `https://github.com/Tuhinshubhra/RED_HAWK`
-- cd RED_HAWK
-- php rhawk.php
-- Use the "help" command to see the command list or type in the domain name you want to scan (without Http:// OR Https://).
-- Select whether The Site Runs On HTTPS or not.
-- Select the type of scan you want to perform
-- Leave the rest to the scanner
+
+```
+$ sudo su (root kali)
+$ git clone `https://github.com/Rahulkilaparthi/RED_HAWK.git`
+$ cd RED_HAWK
+$ php rhawk.php
+$ Use the "help" command to see the command list or type in the domain name you want to scan (without Http:// OR Https://).
+$ Select whether The Site Runs On HTTPS or not.
+$ Select the type of scan you want to perform
+$ Leave the rest to the scanner
+
+```
 
 # List of CMS Supported
 RED HAWK's `CMS Detector` currently is able to detect the following CMSs (Content Management Systems) in case the website is using some other CMS, Detector will return _could not detect_.
@@ -101,20 +106,7 @@ RED HAWK's `CMS Detector` currently is able to detect the following CMSs (Conten
 
 **SOLUTION:** Use The `fix` Command OR Manually Install *php-curl* & *php-xml*
 
-Watch The Video TO See How To Solve This Isuue : https://www.youtube.com/watch?v=QuFPY9NFTM8
 
-# Video Demonstration
-<a href="https://www.youtube.com/watch?v=Jt9kBFiJDrE" target="_blank"><img src="https://i.imgur.com/SXDWohl.png" 
-alt="Video Thumbnail" border="10" /></a>
-
-# Suggestions And Feedbacks
-Want to contribute to RED HAWK or point out something wrong? Just create a new issue here: https://github.com/Tuhinshubhra/RED_HAWK/issues/new
-I'd love to hear from you.
-
-# Support and Donations
-Found RED HAWK cool? well you could buy me a cup of tea ;) (no alcohol plz xD) just send any amount of donations (in BTC) to this address : **1NbiQidWWVVhWknsfPSN1MuksF8cbXWCku**
-
-Can't donate? well that's no problem just drop a **THANK YOU** this will motivate me to create more exciting stuffs for you ;)
 
 # TODOs
 
